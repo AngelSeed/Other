@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace SplatoonScriptsOfficial.Generic
 {
-    public class 背面パッド用 : SplatoonScript
+    public class SupportGamePadFFXIV : SplatoonScript
     {
         public override HashSet<uint> ValidTerritories => new();
         public override Metadata? Metadata => new(1, "Angel Wings XIV JP.Version");
