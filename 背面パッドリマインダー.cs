@@ -23,7 +23,7 @@ namespace SplatoonScriptsOfficial.Generic
         {
             if(category.EqualsAny(DirectorUpdateCategory.Commence, DirectorUpdateCategory.Recommence))
             {
-                if(!Process.GetProcessesByName("SUPPORT_GAMEPAD_FFXIV,1").Any())
+                if(!Process.GetProcessesByName("SUPPORT_GAMEPAD_FFXIV.1").Any())
                 {
                     var s = new SeStringBuilder().AddUiForeground("※WARNING※ 背面パッドが使えないぞ！ ※WARNING※", (ushort)UIColor.Red).Build();
                     for (var i = 0; i < 1; i++)
