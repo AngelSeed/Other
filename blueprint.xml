@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Blueprint>
     <Regions>
-        <Region Name="EN/DE/FR/JP" Version="2025.1.22.0000.0000">
+        <Region Name="EN/DE/FR/JP" Version="2025.01.14.0000.0000">
             <Opcodes>
                 <Opcode Name="StatusEffectList" Id="11b" />
                 <Opcode Name="StatusEffectList2" Id="3ab" />
