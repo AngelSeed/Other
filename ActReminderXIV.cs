@@ -30,7 +30,7 @@ namespace SplatoonScriptsOfficial.Generic
                     {
                         Svc.Chat.Print(s);
                     }
-                    Svc.Toasts.ShowError(s.ExtractText());
+                    // Svc.Toasts.ShowError(s.ExtractText());
                 }
             }
         }
