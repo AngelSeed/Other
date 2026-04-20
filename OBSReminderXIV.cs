@@ -23,7 +23,7 @@ namespace SplatoonScriptsOfficial.Generic
         {
             if(category.EqualsAny(DirectorUpdateCategory.Commence, DirectorUpdateCategory.Recommence))
             {
-                if(!Process.GetProcessesByName("OBS").Any())
+                if(!Process.GetProcessesByName("OBS Studio (64bit)").Any())
                 {
                     var s = new SeStringBuilder().AddUiForeground("※WARNING※ OBSが起動してないよ！ ※WARNING※", (ushort)UIColor.Red).Build();
                     for (var i = 0; i < 1; i++)
