@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace SplatoonScriptsOfficial.Generic
 {
-    public class ActReminderXIV : SplatoonScript
+    public class OBSReminderXIV : SplatoonScript
     {
         public override HashSet<uint> ValidTerritories => new();
         public override Metadata? Metadata => new(1, "Angel Wings XIV JP.Version");
